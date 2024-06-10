@@ -5,49 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>⠀</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/skins/cor1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <style>
 body {
-    background-image: url(/imgs/38931.png);
-    background-repeat: no-repeat;
-    background-color: black;
+ margin: 0;
+ padding: 0;
+ line-height: 1.5;
+ font-size: 16px;
+ background-color: #0d51aa;
+ font-family: 'Poppins' sans-serif;
 }
 </style>
 <body>
-    <header>
-        <img class="logo" src="/imgs/umbrella.png">
-    <ul class="navbar">
-        <h6 class="nome">Dharlan.</h6>
-        <li>Início</li>
-        <li>Projetos</li>
-        <li>Sobre</li>
-        <li>Contato</li>
-    </ul>
-</header>
-    <div class="box">
-        <h1 class="loucura">Olá, eu sou Dharlan Maciel</h1>
-        <h2 class="loucura2">(Html e CSS) Web Developer</h2>
-        <br>
-        <h5 class="loucura3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum et ducimus rerum<br> esse non dolorum enim iusto numquam nesciunt cum magni reprehenderit, recusandae<br> quia exercitationem adipisci ullam asperiores ipsa odit.</h5>
-        <h5 class="loucura4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Quia accusamus rem reprehenderit, blanditiis, nulla<br> inventore tempore aut, reiciendis nisi necessitatibus<br> sunt ut suscipit ad ullam quaerat. Aspernatur, dolor!<br> Explicabo, voluptates.</h5>
-        <img class="dharlan" src="/imgs/dharlan.jpg">
-    </div>
-    <button class="botao"><i class="fa-brands fa-github" style="color: #592bff;"></i></button>
-    <button class="botao"><i class="fa-brands fa-linkedin" style="color: #2e54ff;"></i></button>
-    <button class="botao"><i class="fa-brands fa-whatsapp" style="color: #76ff4c;"></i></button>
-    <button class="botao"><i class="fa-brands fa-twitter" style="color: #1c99b8;"></i></button>
-    <button class="botao"><i class="fa-brands fa-instagram" style="color: #b126f1;"></i></button>
+    <!-- ===== Main Container Inicio ===== -->
+     <div class="main-container">
+        <!-- ===== Aside Inicio ===== -->
+         <div class="aside">
+            <div class="logo">
+                <a href="#"><span>D</span>harlan</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#" class="active"><i class="fa fa-home"></i> Início</a></li>
+                <li><a href="#"><i class="fa fa-user"></i> Sobre</a></li>
+                <li><a href="#"><i class="fa fa-list"></i> Serviços</a></li>
+                <li><a href="#"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#"><i class="fa fa-comments"></i> Contato</a></li>
+            </ul>
+         </div>
+         <!-- ===== Aside Final ===== -->
+          <!-- ===== Conteúdo Principal Inicio ===== -->
+           <div class="main-content">
+            <!-- ===== Tela Inicial Inicio ===== -->
+             <section class="home section hidden">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Olá, meu nome é <span class="name">Dharlan Maciel</span></h3>
+                            <h3 class="my-profession">Eu sou um <span class="typing">Web Developer</span></h3>
+                            <p>Olá, me chamo Dharlan, sou um programador Front-End, busco sempre ser criativo em meus projetos e utilizo bem as cores, fazendo sempre um design mais limpo e agradável...</p>
+                            <a href="#contact" class="btn hire-me">Me chame</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="/imgs/palhacao.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+             </section>
+             <!-- ===== Tela Inicial Fim ===== -->
+              <!-- ===== Tela Sobre Inicio ===== -->
+               <section class="about section">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Sobre Mim</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>Eu sou Dharlan e <span>Web Developer</span></h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate officia commodi, blanditiis, dolor perspiciatis porro amet aut earum reprehenderit repellat suscipit architecto quaerat est quae? Id et cupiditate quidem magni.</p>
+                                </div>
+                            </div>
+                        <div class="row">
+                            <div class="personal-info">Info</div>
+                            <div class="skil">Skillsb </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+               </section>
+               <!-- ===== Tela Sobre Final ===== -->
+           </div>
+           <!-- ===== Conteúdo Principal Final ===== -->
+     </div>
+     <!-- ===== Main Container Final ====== -->
     <footer>
         <div class="textofooter">
             <h5>الوزراء هو الحاكم الفعلي للبلاد. البرلمان  الإسباني مقسم الى مجلسين واحد للأعيا وعدد أعضاء يبل عين و واحد للنواب و عدد نتائج الانتخابات نائب</h5>
-        <!-- <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
-        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
-        <i class="fa-brands fa-github" style="color: #ffffff;"></i>
-        <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i> -->
     </div>
     </footer>
+    <!-- ==== Arquivos JS ==== -->
+     <script src="script.js"></script>
 </body>
 </html>
