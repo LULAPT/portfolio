@@ -34,9 +34,9 @@ ul {
   /* position: fixed; */
   left: 270px;
   padding: 0 30px;
-  /* top: 0;
+  top: 0;
   right: 0;
-  z-index: 0; */
+  z-index: 0;
   opacity: 1;
 }
 
@@ -47,6 +47,7 @@ ul {
 .main-content {
   padding-left: 275px;
   border-radius: 30px;
+  background-color: var(--skin-color);
 }
 
 .padd-15 {
@@ -437,6 +438,22 @@ h3.my-profession {
   flex: 0 0 40%;
   max-width: 40%;
   Margin-top: 40px;
+}
+
+/* Portfolio */
+
+.portfolio .container {
+  padding-bottom: 160px;
+}
+
+.portfolio .portfolio-heading {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.portfolio .portfolio-heading h2 {
+  color: var(--text-black-900);
+  font-weight: 500;
 }
 
 footer {
