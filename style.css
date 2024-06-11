@@ -172,6 +172,7 @@ ul {
     border-left: 5px solid var(--skin-color);
     bottom: 0;
     left: 0;
+    border-radius: 25px;
   }
 
   .aside .logo a::after {
@@ -183,6 +184,7 @@ ul {
     border-right: 5px solid var(--skin-color);
     top: 0;
     right: 0;
+    border-radius: 25px;
   }
 
   .aside .nav-toggler {
@@ -334,8 +336,9 @@ h3.my-profession {
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: -115px;
-    bottom: -40px;
+    right: -75px;
+    bottom: -35px;
+    border-radius: 50px;
   }
 
   .home-img::before {
@@ -347,6 +350,7 @@ h3.my-profession {
     border-left: 10px solid var(--skin-color);
     left: -50px;
     top: -40px;
+    border-radius: 50px;
   }
 
   /* About */
@@ -377,29 +381,62 @@ h3.my-profession {
   color: var(--text-black-700);
 }
 
+.personal-info {
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 16px;
+  color: var(--text-black-900);
+  border-bottom: 1px solid var(--bg-black-50);
+}
+
  .about .about-content .personal-info {
   flex: 0 0 60%;
   max-width: 60%;
   margin-top: 40px;
-  background-color: aqua;
 }
 
-.about .about-content .personal-info .info-item {
+.info-item {
   flex: 0 0 50%;
   max-width: 50%;
 }
 
-/* .about .about-content .personal-info .info-item p {
+.info-item p {
   font-weight: 600;
   padding: 10px 0;
   font-size: 16px;
-} */
+  color: var(--text-black-900);
+  border-bottom: 1px solid var(--bg-black-50);
+}
+
+.info-item p span {
+  font-weight: 400;
+  color: #0d51aa;
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.skills {
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 16px;
+  color: var(--text-black-900);
+  border-bottom: 1px solid var(--bg-black-50);
+}
+
+.skill-items {
+  position: relative;
+  top: 80%;
+  left: -240%;
+}
 
 .about .about-content .skills {
   flex: 0 0 40%;
   max-width: 40%;
   Margin-top: 40px;
-  background-color: #ff0000;
 }
 
 footer {
