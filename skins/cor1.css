@@ -1,3 +1,8 @@
 :root {
     --skin-color:#0d51aa;
 }
+
+.right form .button-area button:hover{
+    color: #04387c;
+    background: none;
+    }
