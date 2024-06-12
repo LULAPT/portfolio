@@ -67,7 +67,7 @@ ul {
   opacity: 1;
 }
 
-/* .hidden {
+ /* .hidden {
   display: none !important;
 } */
 
@@ -294,6 +294,19 @@ ul {
 
   .aside .nav li a i {
     margin-right: 15px;
+  }
+
+  .redbut {
+    position: relative;
+    display: list-item;
+    padding: 5px;
+    margin: 25px;
+    top: 220px;
+    left: 25px;
+    border: none;
+    color: #ffffff00;
+    background-color: #f85a5a00;
+    display: none;
   }
 
   /* Home */

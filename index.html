@@ -22,35 +22,40 @@
                 <span></span>
             </div>
             <ul class="nav">
+                <button class="redbut" onclick="scrollToSection2()">SOBRE</button>
+                <button  class="redbut" onclick="scrollToSection3()">PORTFOLIO</button>
+                <button  class="redbut" onclick="scrollToSection4()">CONTATO</button>
                 <li><a href="#" class="active"><i class="fa fa-home"></i> Início</a></li>
-                <li><a href="#"><i class="fa fa-user"></i> Sobre</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i> Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i> Contato</a></li>
+                <li><a href="#SOBRE"><i class="fa fa-user"></i> Sobre</a></li>
+                <li><a href="#PORTFOLIO"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#CONTATO"><i class="fa fa-comments"></i> Contato</a></li>
             </ul>
          </div>
          <!-- ===== Aside Final ===== -->
           <!-- ===== Conteúdo Principal Inicio ===== -->
            <div class="main-content">
             <!-- ===== Tela Inicial Inicio ===== -->
-             <section class="home section hidden">
+             <section class="home section">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
                             <h3 class="hello">Olá, meu nome é <span class="name">Dharlan Maciel</span></h3>
                             <h3 class="my-profession">Eu sou um <span class="typing">Web Developer</span></h3>
                             <p>Olá, me chamo Dharlan, sou um programador Front-End, busco sempre ser criativo em meus projetos e utilizo bem as cores, fazendo sempre um design mais limpo e agradável...</p>
-                            <a href="#contact" class="btn hire-me">Me chame</a>
+                            <a href="#CONTATO" class="btn hire-me">Me chame</a>
                         </div>
                         <div class="home-img padd-15">
-                            <!-- <img src="/imgs/dharlan2024.jpg" alt=""> -->
+                            <img src="/imgs/dharlan2024.jpg" alt="">
                         </div>
                     </div>
                 </div>
              </section>
              <!-- ===== Tela Inicial Fim ===== -->
-              <!-- ===== Tela Sobre Inicio ===== -->
-               <section class="about section">
-                <div class="container">
+             <div id="SOBRE">
+
+                 <!-- ===== Tela Sobre Inicio ===== -->
+                <section class="about section">
+                    <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
                             <h2>Sobre Mim</h2>
@@ -66,7 +71,7 @@
                             </div>
                         <div class="row">
                             <div class="personal-info padd-15">Informações :</div>
-                            <div class="row">
+                        <div class="row">
                                 <div class="info-item">
                                     <p>Nascimento : <span>08 oct 2006</span></p>
                                 </div>
@@ -76,46 +81,49 @@
                                 <div class="info-item">
                                     <p>Email : <span>dharlan20203@outlook.com</span></p>
                                 </div>
-                                <div class="info-item">
-                                    <p>Telefone : <span>(81) 991240304</span></p>
-                                </div>
-                                <div class="info-item">
-                                    <p>Cidade : <span>Abreu e Lima</span></p>
-                                </div>
-                                <div class="info-item">
-                                    <p>Freelancer : <span>Disponível</span></p>
-                                </div>
+                            <div class="info-item">
+                                <p>Telefone : <span>(81) 991240304</span></p>
                             </div>
+                        <div class="info-item">
+                            <p>Cidade : <span>Abreu e Lima</span></p>
                         </div>
-                        </div>
+                    <div class="info-item">
+                        <p>Freelancer : <span>Disponível</span></p>
                     </div>
-                    <div class="row">
-                        <div class="buttons padd-15">
-                            <a href="https://www.linkedin.com/in/dharlan-maciel-51a356312/" target="_blank" class="btn">Me Contrate</a>
+                            </div>
                         </div>
                     </div>
                 </div>
+            <div class="row">
+                <div class="buttons padd-15">
+                    <a href="https://www.linkedin.com/in/dharlan-maciel-51a356312/" target="_blank" class="btn">Me Contrate</a>
+                </div>
+            </div>
+        </div>
                 </section>
             <!-- ===== Tela Sobre Final ===== -->
-    <!-- ===== Portfolio Inicio ===== -->
-                         <section class="portfolio section">
-                            <div class="container">
-                                <div class="row">
+            </div>
+            <div id="PORTFOLIO">
+
+                <!-- ===== Portfolio Inicio ===== -->
+            <section class="portfolio section">
+                <div class="container">
+                    <div class="row">
                                     <div class="section-title padd-15">
                                         <h2>Portfolio</h2>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="portfolio-title padd-15">
+                            <div class="row">
+                                <div class="portfolio-title padd-15">
                                         <h2>Meus últimos projetos :</h2>
                                     </div>
                                 </div>
                             </div>
-                                <div class="row">
+                        <div class="row">
                                     <!-- ===== portfolio item inicio ===== -->
                                      <div class="portfolio-item padd-15">
-                                        <div class="portfolio-tem-inner shadow-dark">
-                                            <div class="portfolio-img">
+                                         <div class="portfolio-tem-inner shadow-dark">
+                                             <div class="portfolio-img">
                                                 <img src="/imgs/portfolios/blogib_joker_feat.jpg" alt="">
                                             </div>
                                         </div>
@@ -134,7 +142,7 @@
                                             </div>
                                         </div>
                                      </div>
-                                     <div class="portfolio-item padd-15">
+                                    <div class="portfolio-item padd-15">
                                         <div class="portfolio-tem-inner shadow-dark">
                                             <div class="portfolio-img">
                                                 <img src="/imgs/portfolios/blogib_joker_feat.jpg" alt="">
@@ -159,8 +167,11 @@
                                     </div>
                          </section>
                         <!-- ===== Portfolio Final ===== -->
-                    <!-- ===== Contato secao inicio ===== -->
-                <section class="contact section">
+                        </div>
+                        <div id="CONTATO">
+
+                            <!-- ===== Contato secao inicio ===== -->
+                        <section class="contact section">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -169,50 +180,50 @@
                         </div>
                         <h3 class="contato-titulo">Você tem alguma dúvida ?</h3>
                         <h4 class="contato-subtitulo">ESTOU SOB OS SEUS SERVIÇOS</h4>
-                        <div class="row">
+                    <div class="row">
                             <!--- ===== contato info i inicio ===== -->
-                            <div class="contato-info-item padd-15">
+                        <div class="contato-info-item padd-15">
                                 <div class="icon"><i class="fa fa-phone"></i></div>
                                 <h4>Me enconte em</h4>
-                                <p>+55(81) 991240304</p>
+                            <p>+55(81) 991240304</p>
                             </div>
                             <div class="contato-info-item padd-15">
                                 <div class="icon"><i class="fa fa-envelope"></i></div>
                                 <h4>Email</h4>
-                                <p>Dharlan20203@outlook.com</p>
+                            <p>Dharlan20203@outlook.com</p>
                             </div>
                             <div class="contato-info-item padd-15">
                                 <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
                                 <h4>Localização</h4>
-                                <p>Abreu e Lima</p>
+                            <p>Abreu e Lima</p>
                             </div>
-                            <div class="contato-info-item padd-15">
+                        <div class="contato-info-item padd-15">
                                 <div class="icon"><i class="fa-solid fa-person"></i></div>
                                 <h4>Idade</h4>
-                                <p>17</p>
-                            </div>
+                            <p>17</p>
+                        </div>
                             <!--- ===== contato info i final ===== -->
                         </div>
-                        <h3 class="contato-titulo2">Me mande um email</h3>
-                        <h4 class="contato-subtitulo2">Checo o meu inbox diariamente</h4>
-                        <!-- ===== CONTATO EMAIL INICIO ===== -->
-                        <div class="column right">
-                            <div class="text">Mensagem para mim</div>
-                            <form action="ainda off" method="POST">
-                                <div class="fields">
+                    <h3 class="contato-titulo2">Me mande um email</h3>
+                <h4 class="contato-subtitulo2">Checo o meu inbox diariamente</h4>
+            <!-- ===== CONTATO EMAIL INICIO ===== -->
+        <div class="column right">
+            <div class="text">Mensagem para mim</div>
+        <form action="ainda off" method="POST">
+            <div class="fields">
                                     <div class="field name">
                                         <input type="text" placeholder="Nome" required>
                                     </div>
-                                    <div class="field email">
-                                        <input type="email" placeholder="Email" required>
-                                    </div>
+                                <div class="field email">
+                                    <input type="email" placeholder="Email" required>
                                 </div>
-                                <div class="field">
-                                    <input type="text" placeholder="Assunto" required>
                                 </div>
-                                <div class="field textarea">
-                                    <textarea cols="30" rows="10" placeholder="Mensagem" required></textarea>
-                                </div>
+                            <div class="field">
+                                <input type="text" placeholder="Assunto" required>
+                            </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                        </div>
                                 <div class="button-area">
                                     <button type="submit">Enviar</button>
                                 </div>
@@ -222,11 +233,12 @@
                 </div>
             </section>
         
-                         <!-- ===== CONTATO EMAIL FINAL ===== -->
-                    </div>
-                    </section>
-                <!-- ===== Contato secao final ===== -->
-        <!-- ===== Conteúdo Principal Final ===== -->
+        <!-- ===== CONTATO EMAIL FINAL ===== -->
+    </div>
+</section>
+<!-- ===== Contato secao final ===== -->
+</div>
+<!-- ===== Conteúdo Principal Final ===== -->
     </div>
 <!-- ===== Main Container Final ====== -->
 </div>
@@ -256,5 +268,23 @@
     <!-- ==== Arquivos JS ==== -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
      <script src="script.js"></script>
+     <script>
+        function scrollToSection2() {
+            // Role a página para a posição da Seção 2
+            document.getElementById('SOBRE').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+         <script>
+            function scrollToSection3() {
+                // Role a página para a posição da Seção 3
+                document.getElementById('PORTFOLIO').scrollIntoView({ behavior: 'smooth' });
+            }
+        </script>
+             <script>
+                function scrollToSection4() {
+                    // Role a página para a posição da Seção 4
+                    document.getElementById('CONTATO').scrollIntoView({ behavior: 'smooth' });
+                }
+            </script>
 </body>
 </html>
