@@ -47,12 +47,36 @@
     text-transform: capitalize;
 }
 
-/* .style-switcher .color
-{} */
-.style-switcher .color span {
+ .style-switcher .color {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+.style-switcher .colors span {
     display: inline-block;
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    border: 1px solid red;
+    border: 1px solid rgb(133, 133, 133);
+}
+
+.style-switcher .cor-1 {
+    background: #0d51aa;
+}
+
+.style-switcher .cor-2 {
+    background: #790073;
+}
+
+.style-switcher .cor-3 {
+    background: #99610e;
+}
+
+.style-switcher .cor-4 {
+    background: #488000;
+}
+
+.style-switcher .cor-5 {
+    background: #8b001e;
 }
