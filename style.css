@@ -30,11 +30,11 @@
     background: rgba(255, 255, 255, 0)0, 0;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgba(228, 70, 8, 0), 255, 255;
+    background: var(--skin-color);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--skin-color)
+    background: var(--skin-color);
 }
 
   body {
@@ -661,9 +661,29 @@ footer {
   top: 0px;
   position: relative;
   color: var(--skin-color);
-  padding: 20px;
-  text-align: center;
+  padding: 5px;
   background-color: rgba(0, 0, 0, 0.307);
-  background-image: linear-gradient(50deg,#ffffff 40%, #ffffff 100%);
-  clip-path: ellipse(500 0, 100% 0, 100% 90%, 0% 100%);
+  background-image: linear-gradient(50deg, var(--skin-color) 100%, #ffffff 0%);
+  /* clip-path: ellipse(550px 140px at 20% 30%); */
+}
+
+.iconessociais {
+  display: flex;
+  justify-content: right;
+  position: relative;
+}
+
+.iconessociais a {
+  text-decoration: none;
+  padding: 3px;
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.iconessociais a i {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
 }
