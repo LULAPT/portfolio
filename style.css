@@ -10,8 +10,8 @@
   }
 
   :root {
-    --bg-black-900:#f2f2fc;
-    --bg-black-100:#fdf9ff;
+    --bg-black-900:#ffffff;
+    --bg-black-100:#ffffff;
     --bg-black-50:#e8dfec;
     --text-black-900:#302e4d;
     --text-black-700:#504e70;
@@ -451,7 +451,7 @@ h3.my-profession {
 
 .info-item p span {
   font-weight: 400;
-  color: #0d51aa;
+  color: var(--skin-color);
   margin-left: 4px;
   display: inline-block;
 }
