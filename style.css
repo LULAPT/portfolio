@@ -279,12 +279,12 @@ ul {
   }
 
     .aside .nav li a:hover {
-      color: #0d51aa;
+      color: var(--skin-color);
       transition: .5s;
   }
   
   .aside .nav li a:hover::after {
-    color: #0d51aa;
+    color: var(--skin-color);
     transition: .5s ease;
   }
 
